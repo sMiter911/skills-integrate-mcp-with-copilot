@@ -41,6 +41,25 @@ main {
   }
 }
 
+#activities-toolbar {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+#activities-toolbar select,
+#activities-toolbar input[type="text"] {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+#activities-toolbar select#category-select {
+  min-width: 140px;
+}
+
 section {
   background-color: white;
   padding: 20px;
